@@ -1,11 +1,23 @@
 import React from "react";
 import ItemCardList from "../components/ItemCardList";
+import { Typography } from "@mui/material";
+
+//get item categories
+//get items
+//get item pictures
+//get item prices
 
 export default function ItemCard(props) {
     return (
         <div>
-            <h2>What you'll need...</h2>
-             <ItemCardList></ItemCardList>
+            <Typography mt={2} ml={7} variant="h4" >You'll need...</Typography>
+             <ItemCardList 
+             category1="shoes" 
+             category2="shirts" 
+             category3="shorts"
+             itemName="Name"
+             price=" 0.00">
+             </ItemCardList>
         </div>
     );
   }
