@@ -3,8 +3,10 @@
 import React from "react";
 import SportCardList from "../components/SportCardList";
 
-export default function SportCard(props) {
+function SportCard(props) {
     return (
       <SportCardList></SportCardList>
     );
   }
+
+  export default SportCard;
