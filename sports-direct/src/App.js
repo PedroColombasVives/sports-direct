@@ -1,12 +1,18 @@
 import './App.css';
+import WelcomePage from './WelcomePage/WelcomePage.js'
 import SportCard from './SportPage/pages/SportCard';
 import ItemCard from './ItemPage/pages/ItemCard';
+import MapPage from './MapPage/MapPage.js'
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-     <ItemCard></ItemCard>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<WelcomePage/>} />
+        <Route path="/sport" element={<SportCard />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
