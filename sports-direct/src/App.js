@@ -1,10 +1,11 @@
 import './App.css';
 import SportCard from './SportPage/pages/SportCard';
+import ItemCard from './ItemPage/pages/ItemCard';
 
 function App() {
   return (
     <div className="App">
-     <SportCard></SportCard>
+     <ItemCard></ItemCard>
     </div>
   );
 }
