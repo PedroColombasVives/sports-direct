@@ -7,11 +7,11 @@ import { CardActionArea } from '@mui/material';
 
 export default function ItemCardItem(props) {
   return (
-    <Card variant="outlined" sx={{ width: 200}}>
+    <Card variant="outlined" sx={{ width: 300}}>
       <CardActionArea href="">
         <CardMedia
           component="img"
-          height="200"
+          height="60"
           image={props.image}
         />
         <CardContent>

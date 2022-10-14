@@ -10,7 +10,7 @@ import { Typography } from "@mui/material";
 export default function ItemCard(props) {
     return (
         <div>
-            <Typography mt={2} ml={7} variant="h4" >You'll need...</Typography>
+            <Typography mt={2} ml={4} variant="h4" >You'll need...</Typography>
              <ItemCardList 
              category1="shoes" 
              category2="shirts" 
